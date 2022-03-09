@@ -1,48 +1,56 @@
 let etapas = [
      {
-         titulo: 'VEREADOR',
+         titulo: 'THE BEST',
          numeros: 5,
          candidatos: [
              {
-                 numero: '38111',
-                 nome: 'Fulano de Tal',
-                 partido: 'ABC',
+                 numero: '17171',
+                 nome: 'Kevin De Bruyne',
+                 partido: 'Manchester City',
                  fotos:[
-                     {url:'38111.jpg', legenda: 'Vereador'}
+                     {url:'debruyne17.jpg', legenda: 'THE BEST'}
                  ]
              },
              {
-                 numero: '77222',
-                 nome: 'Beltrano da Silva',
-                 partido: 'DEFG',
+                 numero: '10101',
+                 nome: 'Harry Kane',
+                 partido: 'Tottenham',
                  fotos:[
-                     {url:'77222.jpg', legenda: 'Vereador'}
+                     {url:'kane10.jpg', legenda: 'THE BEST'}
+                 ]
+             },
+             {
+                 numero: '18181',
+                 nome: 'Bruno Fernandes',
+                 partido: 'Manchester United',
+                 fotos:[
+                     {url:'bruno18.jpg', legenda: 'THE BEST'}
                  ]
              },
          ]
      },
      {
-         titulo: 'PREFEITO',
+         titulo: 'DUPLAS',
          numeros: 2,
          candidatos: [
              {
-                 numero: '99',
-                 nome: 'Ciclano',
-                 partido: 'ABC',
-                 vice: 'Cic',
+                 numero: '35',
+                 nome: 'Gabriel Martinelli',
+                 partido: 'Arsenal',
+                 vice: 'Bukayo Saka',
                  fotos:[
-                     {url:'99.jpg', legenda: 'Prefeito'},
-                     {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                     {url:'gabriel35.jpg', legenda: 'ARTILHEIRO'},
+                     {url:'saka77.jpg', legenda: 'ASSISTENTE', small: true}    // Small referente a imagem pequena
                  ]
              },
              {
-                 numero: '84',
-                 nome: 'Zulano',
-                 partido: 'QWERTY',
-                 vice: 'Zul',
+                 numero: '11',
+                 nome: 'Mohamed Salah',
+                 partido: 'Liverpool',
+                 vice: 'Firmino',
                  fotos:[
-                     {url:'84.jpg', legenda: 'Prefeito'},
-                     {url:'84_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                     {url:'salah11.jpg', legenda: 'ARTILHEIRO'},
+                     {url:'firmino9.jpg', legenda: 'ASSISTENTE', small: true}
                  ]
              },
          ]

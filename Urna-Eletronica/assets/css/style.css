@@ -91,6 +91,7 @@ body {
      display: flex;
      flex-direction: column;
      padding-left: 20px;
+     gap: 10px;
 }
 
 .d-1-1 {
@@ -159,4 +160,9 @@ body {
      font: normal 14px Arial, Helvetica, sans-serif;
      border-top: 2px solid #000;
      padding-left: 10px;
+}
+
+.aviso--grande {
+     font-size: 40px;
+     font-weight: bold;
 }
