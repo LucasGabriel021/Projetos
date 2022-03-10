@@ -1,3 +1,10 @@
+/*RESET CSS*/
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
 :root {
      --beje: #DBD5C9;
      --cinza: #E8E8E8;
@@ -19,6 +26,7 @@ body {
      justify-content: center;
      align-items: center;
      font-family: Arial, Helvetica, sans-serif;
+     height: 100vh;
 }
 
 #urna {
@@ -116,8 +124,8 @@ body {
      justify-content: center;
      align-items: center;
      width: 30px;
-     height: 50px;
-     font-size: 25px;
+     height: inherit;
+     font-size: 20px;
      border: 2px solid #000;
 }
 
@@ -165,4 +173,13 @@ body {
 .aviso--grande {
      font-size: 40px;
      font-weight: bold;
+}
+
+.aviso--gigante {
+     font-size: 70px;
+     font-weight: bold;
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
