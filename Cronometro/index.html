@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon-relogio.ico"/>
+</head>
+<body>
+    <div class="area--cronometro">
+        <div class="exibicao--cronometro">
+            <div class="exibir-cronometro">
+                00:00:00,00
+            </div>
+        </div>
+        <div class="btns--cronometro">
+            <button id="btn-iniciar" class="ativado" onclick="iniciar()">
+                <img src="assets/img/icone-play.png" alt="">
+            </button>
+            <button id="btn-pause" onclick="pause()">
+                <img src="assets/img/icone-pausa.png" alt="">
+            </button>
+            <button id="btn-redefinir" onclick="redefinir()">
+                <img src="assets/img/icone-redefinir.png" alt="">
+            </button>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
